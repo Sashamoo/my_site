@@ -1,11 +1,11 @@
 img {
   display: block;
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 
 body {
-  background-color: #f0f0f0;
+  background-color: #ffffff;
 }
 
 main {
@@ -21,3 +21,14 @@ footer {
   text-align: center;
 }
 
+.half {
+  background-color: #ffffff;
+  width: 50%;
+  display: block;
+  
+}
+
+.inner {
+  display: flex;
+  gap: 50px;
+}
