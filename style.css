@@ -4,12 +4,35 @@ img {
   height: auto;
 }
 
+.img {
+  display: block; 
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  list-style-type:none; 
+  gap: 20%;
+}
+
+nav {
+  display: flex; 
+  gap: 20%; 
+  position: fixed; 
+  top: 2%;
+}
+
 body {
-  background-color: #ffffff;
+  background-color: black;
+  width: 100%;
+  min-height: 100vh;
+  color: #222;
+  margin: 0;
+  padding: 0;
 }
 
 main {
-  background-color: #f0f0f0;
+  background-color: black;
   padding: 20px;
   border-radius: 5px;
 }
