@@ -4,11 +4,6 @@ img {
   height: auto;
 }
 
-.img {
-  display: block; 
-  width: 100%;
-}
-
 ul {
   display: flex;
   list-style-type:none; 
@@ -16,14 +11,15 @@ ul {
 }
 
 nav {
-  display: flex; 
+  display: flex;
+  width: 100%; 
   gap: 20%; 
   position: fixed; 
   top: 2%;
 }
 
 body {
-  background-color: black;
+  background-color: rgb(107, 85, 185);
   width: 100%;
   min-height: 100vh;
   color: #222;
@@ -32,7 +28,7 @@ body {
 }
 
 main {
-  background-color: black;
+  background-color: rgb(107, 85, 185);
   padding: 20px;
   border-radius: 5px;
 }
